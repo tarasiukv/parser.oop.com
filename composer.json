@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/parser.oop.com",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "vik",
+      "email": "email@example.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "require": {
+    "ext-simplexml": "*"
+  }
+}
